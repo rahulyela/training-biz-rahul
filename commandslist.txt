@@ -1,0 +1,253 @@
+    1  clear
+    2  sudo adduser rahul_aws
+    3  sudo su - rahul_aws
+    4  sudo -i
+    5  ssh rahul_aws@13.60.218.89
+    6  sudo vim /etc/ssh/sshd_config
+    7  sudo vi /etc/ssh/sshd_config
+    8  sudo cat /etc/passwd | grep rahul_aws
+    9  sudo systemctl restart sshd
+   10  sudo -i
+   11  sudo su - rahul_aws
+   12  sudo -i
+   13  su - rahul_aws
+   14   sudo -i
+   15  sudo su
+   16  sudo vi /etc/ssh/sshd_config
+   17  sudo -i
+   18  sudo vi /etc/ssh/sshd_config
+   19  su - rahul_aws
+   20  ls -a 
+   21  sudo -i
+   22  ls -a
+   23  cd .ssh
+   24  ls -a
+   25  vi authorized_keys
+   26  cat authorized_keys
+   27  export HISTTIMEFORMAT="%F %T "
+   28  source ~/.bashrc
+   29  history > commandslist.txt
+   30  ls -a
+   31  cat commandslist.txt
+   32  sudo -i
+   33   su - rahul_aws
+   34  sudo -i
+   35  ls -a
+   36  mkdir shell_scripting
+   37  cd shell_scripting
+   38  touch task1.sh
+   39  vi task1.sh
+   40  ./task1.sh file.txt target.txt
+   41  chmod +x task.sh
+   42  chmod +x task1.sh
+   43  ./task1.sh file.txt target.txt
+   44  cat target.txt
+   45  echo "my name is rahul" > file.txt
+   46  ./task1.sh file.txt target.txt
+   47  cat target.txt
+   48  ./task1.sh file.txt file.txt
+   49  vi file.txt
+   50  ./task1.sh file.txt target.txt
+   51  cat target.txt
+   52  cat file.txt
+   53  ./task1.sh file.txt target.txt
+   54  cat target.txt
+   55  vi target.txt
+   56  vi task1.sh
+   57  ./task1.sh file.txt target.txt
+   58  cat target.txt
+   59  cat >> file.txt
+   60  ./task1.sh file.txt target.txt
+   61  cat target.txtx
+   62  cat target.txt
+   63  echo > file.txt
+   64  cat file.txt
+   65  vi task1.sh
+   66  cat task1.sh
+   67  ./task1.sh file.txt target.txt
+   68  cat file.txt
+   69  vi task1.sh
+   70  ./task1.sh file.txt target.txt
+   71  cat target.txt
+   72  cat file.txt
+   73  cat >> file.txt
+   74  ./task1.sh file.txt target.txt
+   75  cat target.txt
+   76  vi file.txt
+   77  vi task1.sh
+   78  cat file.txt
+   79  echo>file.txt
+   80  cat file.txt
+   81  ./task1.sh file.txt target.txt
+   82  cat target.txt
+   83  rm file.txt
+   84  ls -a
+   85  ./task1.sh file.txt target.txt
+   86  cat target.txt
+   87  touch file.txt
+   88  ./task1.sh file.txt target.txt
+   89  cat target.txt
+   90  ls -a -l
+   91  ls -a
+   92  cat commandslist.txt
+   93  cd shell_scripting
+   94  ls -a
+   95  vi file.txt
+   96  ./task1.sh file.txt target.txt
+   97  cat target.txt
+   98  vi file.txt
+   99  ./task1.sh file.txt target.txt
+  100  cat target.txt
+  101  rm file.txt
+  102  ls -a
+  103  touch source.txt
+  104  ./task1.sh source.txt target.txt
+  105  cat target.txt
+  106  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+  107  wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  108  ls
+  109  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+  110  clear
+  111  ls -l
+  112  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+  113  sudo yum install epel-release
+  114  wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+  115  sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+  116  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+  117  ls  
+  118  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+  119  free -m
+  120  df -h
+  121  sudo fallocate -l 512M /swapfile
+  122  ls 
+  123  sudo chmod 600 /swapfile
+  124  ls -a -l
+  125  sudo mkswap /swapfile
+  126  sudo swapon /swapfile
+  127  sudo swapon --show
+  128  free -m
+  129  sudo yum preinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+  130  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+  131  free -m
+  132  ls -a -l
+  133  cat xe-downloads.html 
+  134  sudo yum preinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+  135  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+  136  sudo /etc/init.d/oracle-xe-21c configure
+  137  cd/opt/oracle/product/21c/dbhomeXE/bin
+  138   cd /opt/oracle/product/21c/dbhomeXE/bin
+  139  $ORACLE_HOME/cv/admin/cvu_config
+  140  $ORACLE_HOME /cv/admin/cvu_config
+  141  /cv/admin/cvu_config
+  142  cd /cv/admin/cvu_config
+  143  cd /cv/admin
+  144  ls -al
+  145  cd ..
+  146  ls -al
+  147  cd cv
+  148  ls -al
+  149  cd admin
+  150  ls -al
+  151  sudo vi cvu_config
+  152  sudo /etc/init.d/oracle-xe-21c configure
+  153  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  154  export ORACLE_SID=XE
+  155  export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+  156  sqlplus
+  157  sudo basdh
+  158  sudo bash
+  159  sqlplus
+  160  exit
+  161  vi .bash_profile
+  162  sqlplus
+  163  source ~/.bash_profile
+  164  sqlplus
+  165  ls -a
+  166  .bash_profile
+  167  /.bash_profile
+  168  ~/.bash_profile
+  169  source ~/.bash_profile
+  170  sqlplus
+  171  sudo bash
+  172  source ~/.bash_profile
+  173  sqlplus
+  174  sudo bash
+  175  sqlplis
+  176  sqlplus
+  177  source .bash_profile
+  178  sqlplus
+  179  sqlplus rahul/rahul123
+  180  sqlplus sys as sysdba/Venom2002
+  181  ls -a
+  182  cat .ssh/authorized_keys
+  183  sudo passwd
+  184  passwd
+  185  sudo passwd ec2-user
+  186  ls -a 
+  187  pwd
+  188  cd -
+  189  pwd
+  190  cd -
+  191  ls -a
+  192  cd /opt/oracle/product/21c/dbhomeXE/bin
+  193  pwd
+  194  imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp
+  195  imp classicmodels/classicmodels123 FILE=/home/ec2-user/classicmodels.dmp
+  196  imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp
+  197  ls -l /home/ec2-user/classicmodels.dmp
+  198  ls -l /home/ec2-user/'classicmodels.dmp'
+  199  cd ~
+  200  pwd
+  201  ls -a
+  202  ls -l -a
+  203  ren 'classicmodels.dmp' classicmodels.dmp
+  204  rename 'classicmodels.dmp' classicmodels.dmp
+  205  mv 'classicmodels.dmp' classicmodels.dmp
+  206  cat 'classicmodels .dmp'
+  207  clear
+  208  mv 'classicmodels.dmp' classicmodels.dmp
+  209  cd /opt/oracle/product/21c/dbhomeXE/bin
+  210  imp rahul/rahul123 FILE=/home/ec2-user/'classicmodels .dmp'
+  211  chmod 644 /home/ec2-user/classicmodels.dmp
+  212  chmod 644 /home/ec2-user/'classicmodels .dmp'
+  213  ls -l /home/ec2-user/'classicmodels .dmp'
+  214  imp rahul/rahul123 FILE=/home/ec2-user/'classicmodels .dmp'
+  215  mv '/home/ec2-user/classicmodels .dmp' '/home/ec2-user/classicmodels.dmp'
+  216  imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp
+  217  ls /home/ec2-user
+  218  imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log 
+  219  imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log  FULL=Y
+  220  clear
+  221  cd .ssh
+  222  ls -a
+  223  ssh-keygen -t rsa -C 'KEY_PAIR'
+  224  ls -a
+  225  cat id_rsa.pub
+  226  cd ~
+  227  pwd
+  228  ls -a
+  229  git clone git@github.com:rahulyela/training-biz-rahul.git
+  230  sudo yum install git
+  231  git clone git@github.com:rahulyela/training-biz-rahul.git
+  232  ls -a
+  233  cd training-biz-rahul
+  234  vi commandslist.txt
+  235  git status
+  236  git add .
+  237  git status
+  238  git init .
+  239  ls -a
+  240  cd ..
+  241  rmdir trainig-biz-rahul
+  242  rmdir training-biz-rahul
+  243  cd training-biz-rahul
+  244  touch commandslist.txt
+  245  git status
+  246  git add .
+  247  git commit -m 'cron job - $(date '+%Y-%m-%d %H:%M:%S')'
+  248  git commit -m 'cron job $(date '+%Y-%m-%d %H:%M:%S')'
+  249  git commit -m "cron job $(date '+%Y-%m-%d %H:%M:%S')"
+  250  git push -u main origin
+  251  git branch
+  252  git push -u origin main
+  253  history >> commandslist.txt
