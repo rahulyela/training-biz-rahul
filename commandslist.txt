@@ -229,3 +229,7 @@ cat .bash_history
 echo "running"
 ps -a
 cat .bash_history
+crontab -e
+crontab -l
+ls -a -l
+cat .bash_history
