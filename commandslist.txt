@@ -1,1 +1,267 @@
 
+clear
+sudo adduser rahul_aws
+sudo su - rahul_aws
+sudo -i
+ssh rahul_aws@13.60.218.89
+sudo vim /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+sudo cat /etc/passwd | grep rahul_aws
+sudo systemctl restart sshd
+sudo -i
+sudo su - rahul_aws
+sudo -i
+su - rahul_aws
+ sudo -i
+sudo su
+sudo vi /etc/ssh/sshd_config
+sudo -i
+sudo vi /etc/ssh/sshd_config
+su - rahul_aws
+ls -a 
+sudo -i
+ls -a
+cd .ssh
+ls -a
+vi authorized_keys
+cat authorized_keys
+#1726723621
+export HISTTIMEFORMAT="%F %T "
+#1726723632
+source ~/.bashrc
+#1726723643
+history > commandslist.txt
+#1726723647
+ls -a
+#1726723662
+cat commandslist.txt
+sudo -i
+ su - rahul_aws
+sudo -i
+ls -a
+mkdir shell_scripting
+cd shell_scripting
+touch task1.sh
+vi task1.sh
+./task1.sh file.txt target.txt
+chmod +x task.sh
+chmod +x task1.sh
+./task1.sh file.txt target.txt
+cat target.txt
+echo "my name is rahul" > file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+./task1.sh file.txt file.txt
+vi file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+cat file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+vi target.txt
+vi task1.sh
+./task1.sh file.txt target.txt
+cat target.txt
+cat >> file.txt
+./task1.sh file.txt target.txt
+cat target.txtx
+cat target.txt
+echo > file.txt
+cat file.txt
+vi task1.sh
+cat task1.sh
+./task1.sh file.txt target.txt
+cat file.txt
+vi task1.sh
+./task1.sh file.txt target.txt
+cat target.txt
+cat file.txt
+cat >> file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+vi file.txt
+vi task1.sh
+cat file.txt
+echo>file.txt
+cat file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+rm file.txt
+ls -a
+./task1.sh file.txt target.txt
+cat target.txt
+touch file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+ls -a -l
+ls -a
+cat commandslist.txt
+cd shell_scripting
+ls -a
+vi file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+vi file.txt
+./task1.sh file.txt target.txt
+cat target.txt
+rm file.txt
+ls -a
+touch source.txt
+./task1.sh source.txt target.txt
+cat target.txt
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+clear
+ls -l
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum install epel-release
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+ls  
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+free -m
+df -h
+sudo fallocate -l 512M /swapfile
+ls 
+sudo chmod 600 /swapfile
+ls -a -l
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -m
+sudo yum preinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+free -m
+ls -a -l
+cat xe-downloads.html 
+sudo yum preinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo /etc/init.d/oracle-xe-21c configure
+cd/opt/oracle/product/21c/dbhomeXE/bin
+ cd /opt/oracle/product/21c/dbhomeXE/bin
+$ORACLE_HOME/cv/admin/cvu_config
+$ORACLE_HOME /cv/admin/cvu_config
+/cv/admin/cvu_config
+
+cd /cv/admin/cvu_config
+cd /cv/admin
+ls -al
+cd ..
+ls -al
+cd cv
+ls -al
+cd admin
+ls -al
+sudo vi cvu_config
+sudo /etc/init.d/oracle-xe-21c configure
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sudo basdh
+sudo bash
+sqlplus
+exit
+vi .bash_profile
+sqlplus
+source ~/.bash_profile
+sqlplus
+ls -a
+.bash_profile
+/.bash_profile
+~/.bash_profile
+source ~/.bash_profile
+sqlplus
+sudo bash
+source ~/.bash_profile
+sqlplus
+sudo bash
+sqlplis
+sqlplus
+source .bash_profile
+sqlplus
+sqlplus rahul/rahul123
+sqlplus sys as sysdba/Venom2002
+ls -a
+cat .ssh/authorized_keys
+sudo passwd
+passwd
+sudo passwd ec2-user
+ls -a 
+pwd
+cd -
+pwd
+cd -
+ls -a
+cd /opt/oracle/product/21c/dbhomeXE/bin
+pwd
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp
+imp classicmodels/classicmodels123 FILE=/home/ec2-user/classicmodels.dmp
+imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp
+ls -l /home/ec2-user/classicmodels.dmp
+ls -l /home/ec2-user/'classicmodels.dmp'
+cd ~
+pwd
+ls -a
+ls -l -a
+ren 'classicmodels.dmp' classicmodels.dmp
+rename 'classicmodels.dmp' classicmodels.dmp
+mv 'classicmodels.dmp' classicmodels.dmp
+cat 'classicmodels .dmp'
+clear
+mv 'classicmodels.dmp' classicmodels.dmp
+cd /opt/oracle/product/21c/dbhomeXE/bin
+imp rahul/rahul123 FILE=/home/ec2-user/'classicmodels .dmp'
+chmod 644 /home/ec2-user/classicmodels.dmp
+chmod 644 /home/ec2-user/'classicmodels .dmp'
+ls -l /home/ec2-user/'classicmodels .dmp'
+imp rahul/rahul123 FILE=/home/ec2-user/'classicmodels .dmp'
+mv '/home/ec2-user/classicmodels .dmp' '/home/ec2-user/classicmodels.dmp'
+imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp
+ls /home/ec2-user
+imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log 
+imp rahul/rahul123 FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log  FULL=Y
+clear
+cd .ssh
+ls -a
+ssh-keygen -t rsa -C 'KEY_PAIR'
+ls -a
+cat id_rsa.pub
+cd ~
+pwd
+ls -a
+git clone git@github.com:rahulyela/training-biz-rahul.git
+sudo yum install git
+git clone git@github.com:rahulyela/training-biz-rahul.git
+ls -a
+cd training-biz-rahul
+vi commandslist.txt
+git status
+git add .
+git status
+git init .
+ls -a
+cd ..
+rmdir trainig-biz-rahul
+rmdir training-biz-rahul
+cd training-biz-rahul
+touch commandslist.txt
+git status
+git add .
+git commit -m 'cron job - $(date '+%Y-%m-%d %H:%M:%S')'
+git commit -m 'cron job $(date '+%Y-%m-%d %H:%M:%S')'
+git commit -m "cron job $(date '+%Y-%m-%d %H:%M:%S')"
+git push -u main origin
+git branch
+git push -u origin main
+history >> commandslist.txt
+cat commandslist.txt
+git status
+git add .
+git commit -m "cron job $(date '+%Y-%m-%d %H:%M:%S')"
+git push -u origin main
+cd ~
+sudo bash
