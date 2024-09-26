@@ -1,1 +1,1 @@
-/home/ec2-user/.bash_history
+
