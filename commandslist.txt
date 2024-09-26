@@ -225,3 +225,5 @@ crontab -l
 cat training-biz-rahul/commandslist.txt
 ls -a 
 ls -a -l
+cat .bash_history
+echo "running"
