@@ -227,3 +227,5 @@ ls -a
 ls -a -l
 cat .bash_history
 echo "running"
+ps -a
+cat .bash_history
