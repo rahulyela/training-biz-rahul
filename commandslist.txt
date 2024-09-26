@@ -233,3 +233,8 @@ crontab -e
 crontab -l
 ls -a -l
 cat .bash_history
+ls -a
+crontab -e
+cat .bash_history
+vi update_job.sh
+cat .bash_history
