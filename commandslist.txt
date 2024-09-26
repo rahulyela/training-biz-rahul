@@ -222,3 +222,6 @@ git push -u origin main
 cd -
 crontab -e
 crontab -l
+cat training-biz-rahul/commandslist.txt
+ls -a 
+ls -a -l
