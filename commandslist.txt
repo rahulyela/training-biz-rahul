@@ -300,3 +300,10 @@ sudo vi /etc/postfix/main.cf
 sudo systemctl restart postfix
 sudo systemctl status postfix.service
 sudo vi /etc/postfix/main.cf
+sudo yum remove postfix
+kill 2803
+clear
+sudo systemctl start postfix
+sudo yum install postfix mailx -y
+sudo systemctl status postfix
+sudo nano /etc/postfix/main.cf
