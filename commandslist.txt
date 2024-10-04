@@ -325,3 +325,16 @@ sudo vi /etc/postfix/main.cf
 sudo yum install postfix -y
 cd /etc
 cd postfix
+sudo mkdir /etc/postfix
+sudo vi /etc/postfix/main.cf
+sudo vi /etc/postfix/sasl_passwd
+sudo chmod 600 /etc/postfix/sasl_passwd
+sudo postmap /etc/postfix/sasl_passwd
+sudo systemctl start postfix
+ls -l /var/spool/postfix
+sudo mkdir -p /var/spool/postfix
+sudo chown postfix:postfix /var/spool/postfix
+sudo chown -R postfix:postfix /etc/postfix
+sudo chown -R postfix:postfix /var/spool/postfix
+sudo chown -R postfix:postfix /var/log/mail.log
+sudo ls -l /var/log/maillog
