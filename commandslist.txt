@@ -369,3 +369,10 @@ sudo postfix set-permissions
 sudo systemctl start postfix
 systemctl status postfix.service
 clear
+su - rahul_aws
+clear
+sudo yum install s-nail -y
+ps aux | grep yum
+sudo kill -9 2801 2803 25379 25381 25488 25490 25802 25804 26126 26128
+sudo yum clean all
+sudo yum install s-nail -y
