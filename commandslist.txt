@@ -298,3 +298,5 @@ sudo vi /etc/postfix/main.CF
 sudo vi /etc/postfix/main.cf
 {     echo "Subject: AWS Test";     echo "To: yelarahul566@gmail.com";     echo "Content-Type: text/plain; charset=utf-8";     echo;     echo "Hello from EC2!"; } | sendmail -t
 sudo systemctl restart postfix
+sudo systemctl status postfix.service
+sudo vi /etc/postfix/main.cf
