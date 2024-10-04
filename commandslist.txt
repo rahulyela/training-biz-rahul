@@ -282,3 +282,7 @@ sudo systemctl start postfix
 sudo systemctl status postfix
 {     echo "Subject: AWS Test";     echo "To: yelarahul566@gmail.com";     echo "Content-Type: text/plain; charset=utf-8";     echo;     echo "Hello from EC2!"; } | sendmail -t
 sudo tail -f /var/log/maillog
+{     echo "Subject: AWS Test";     echo "To: yelarahul566@gmail.com";     echo "Content-Type: text/plain; charset=utf-8";     echo;     echo "Hello from EC2!"; } | sendmail -t
+clear
+mail
+clear
