@@ -307,3 +307,9 @@ sudo systemctl start postfix
 sudo yum install postfix mailx -y
 sudo systemctl status postfix
 sudo nano /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
+ls /usr/lib/postfix
+rpm -q postfix
+sudo systemctl stop postfix
+sudo yum remove postfix -y
+sudo rm -rf /etc/postfix
