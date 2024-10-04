@@ -350,3 +350,12 @@ sudo systemctl restart postfix
 su root
 su - rahul_aws
 sudo systemctl stop postfix
+sudo yum remove postfix -y
+sudo systemctl restart postfix
+clear
+sudo systemctl status postfix.service
+sudo vi /etc/postfix/master.cf
+sudo mkdir -p /var/spool/postfix
+sudo mkdir -p /etc/postfix
+sudo chown -R postfix:postfix /var/spool/postfix
+sudo chown -R postfix:postfix /etc/postfix
