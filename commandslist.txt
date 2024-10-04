@@ -313,3 +313,15 @@ rpm -q postfix
 sudo systemctl stop postfix
 sudo yum remove postfix -y
 sudo rm -rf /etc/postfix
+sudo rm -rf /var/spool/postfix
+sudo yum update -y
+sudo yum install postfix -y
+sudo vi /etc/postfix/main.cf
+cd /etc/postfix
+cd /etc
+ls -a
+clear
+sudo vi /etc/postfix/main.cf
+sudo yum install postfix -y
+cd /etc
+cd postfix
