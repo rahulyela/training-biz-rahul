@@ -258,3 +258,14 @@ pwd
 ls -a
 sudo nano /etc/postfix/main.cf
 sudo vi /etc/postfix/main.cf
+sudo vi /etc/postfix/ sasl_passw
+cd /etc/postfix
+ls -l
+sudo vi sasl_passw
+sudo postmap sasl_passw
+ls -l
+sudo systemctl restart postfix
+echo "hello" | mail -s "aws test" yelarahul566@gmail.com
+cd ~
+echo "hello" | mail -s "aws test" yelarahul566@gmail.com
+{     echo "Subject: aws test";     echo "To: yelarahul566@gmail.com";     echo "Content-Type: text/plain; charset=utf-8";     echo;     echo "hello"; } | sendmail -t
