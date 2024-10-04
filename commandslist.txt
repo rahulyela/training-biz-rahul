@@ -286,3 +286,12 @@ sudo tail -f /var/log/maillog
 clear
 mail
 clear
+sudo vi /etc/postfix/main.cf
+sudo rm /etc/postfix/main.swp
+sudo vi /etc/postfix/main.cf
+sudo rm /etc/postfix/maincf.swp
+sudo vi /etc/postfix/main.cf
+sudo rm /etc/postfix/.main.cf.swp
+sudo vi /etc/postfix/main.cf
+{     echo "Subject: AWS Test";     echo "To: yelarahul566@gmail.com";     echo "Content-Type: text/plain; charset=utf-8";     echo;     echo "Hello from EC2!"; } | sendmail -t
+sudo vi /etc/postfix/main.CF
