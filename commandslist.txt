@@ -376,3 +376,9 @@ ps aux | grep yum
 sudo kill -9 2801 2803 25379 25381 25488 25490 25802 25804 26126 26128
 sudo yum clean all
 sudo yum install s-nail -y
+ping -c 4 google.com
+clear
+vi ~/.mailrc
+echo "This is a test email from S-nail." | s-nail -s "Test Email" yelarahul566@gmail.com
+vi ~/.mailrc
+chmod 600 ~/.s-nailrc
