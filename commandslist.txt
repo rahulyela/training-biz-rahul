@@ -238,3 +238,8 @@ crontab -e
 cat .bash_history
 vi update_job.sh
 cat .bash_history
+clear
+ls -l
+sudo yum install mailutils
+sudo yum install mailx
+sudo yum install heirloom-mailx
