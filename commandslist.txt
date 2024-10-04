@@ -243,3 +243,8 @@ ls -l
 sudo yum install mailutils
 sudo yum install mailx
 sudo yum install heirloom-mailx
+sudo yum install postfix
+sudo vi /etc/postifx/main.cf
+sudo cat /etc/postifx/main.cf
+cd /etc/postfix
+ls -l
