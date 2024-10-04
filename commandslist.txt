@@ -348,3 +348,5 @@ sudo systemctl restart postfix
 cd ~
 sudo systemctl restart postfix
 su root
+su - rahul_aws
+sudo systemctl stop postfix
