@@ -359,3 +359,13 @@ sudo mkdir -p /var/spool/postfix
 sudo mkdir -p /etc/postfix
 sudo chown -R postfix:postfix /var/spool/postfix
 sudo chown -R postfix:postfix /etc/postfix
+sudo postfix set-permissions
+sudo rm -f /etc/postfix/postfix-files
+sudo vi /etc/postfix/master.cf
+sudo touch /etc/postfix/postfix-files
+sudo chown -R postfix:postfix /etc/postfix
+sudo chown -R postfix:postfix /var/spool/postfix
+sudo postfix set-permissions
+sudo systemctl start postfix
+systemctl status postfix.service
+clear
