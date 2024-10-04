@@ -248,3 +248,13 @@ sudo vi /etc/postifx/main.cf
 sudo cat /etc/postifx/main.cf
 cd /etc/postfix
 ls -l
+sudo vi main.cf
+clear
+vi main.cf
+cd ..
+pwd
+cd ~
+pwd
+ls -a
+sudo nano /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
