@@ -392,3 +392,5 @@ clear
 ls -a
 sudo rm .mailrc .s-nailrc
 ls -a
+sudo vi /etc/s-nail.rc
+sudo chmod 777 /etc/s-nail.rc
