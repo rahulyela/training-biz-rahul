@@ -388,3 +388,7 @@ echo "This is a test email from S-nail." | s-nail -s "Test Email" yelarahul566@g
 vi ~/.s-nailrc
 echo "This is a test email from S-nail." | s-nail -s "Test Email" yelarahul566@gmail.com
 echo "This is a test email from S-nail." | s-nail -s "Test Email" rahulyela7@gmail.com
+clear
+ls -a
+sudo rm .mailrc .s-nailrc
+ls -a
