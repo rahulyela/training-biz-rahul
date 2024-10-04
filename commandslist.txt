@@ -382,3 +382,9 @@ vi ~/.mailrc
 echo "This is a test email from S-nail." | s-nail -s "Test Email" yelarahul566@gmail.com
 vi ~/.mailrc
 chmod 600 ~/.s-nailrc
+vi ~/.s-nailrc
+chmod 600 ~/.s-nailrc
+echo "This is a test email from S-nail." | s-nail -s "Test Email" yelarahul566@gmail.com
+vi ~/.s-nailrc
+echo "This is a test email from S-nail." | s-nail -s "Test Email" yelarahul566@gmail.com
+echo "This is a test email from S-nail." | s-nail -s "Test Email" rahulyela7@gmail.com
