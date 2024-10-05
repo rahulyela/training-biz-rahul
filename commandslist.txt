@@ -395,3 +395,9 @@ ls -a
 sudo vi /etc/s-nail.rc
 sudo chmod 777 /etc/s-nail.rc
 sudo vi /etc/s-nail.rc
+echo "hii from aws" | s-nail -s "System Report from EC2" yelarahul566@gmail.com
+echo "hii from ec2-user" | s-nail -s "System Report from EC2" yelarahul566@gmail.com
+sudo bash
+sudo vi /etc/s-nail.rc
+clear
+echo "hii from aws account" | s-nail -s "System Report from EC2" yelarahul566@gmail.com
